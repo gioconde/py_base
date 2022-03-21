@@ -25,3 +25,4 @@ def sub(a, b):
 
 
 CONSTANTE = soma(2, 4)
+print(CONSTANTE)
