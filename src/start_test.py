@@ -1,4 +1,4 @@
-from .start import soma
+from .start import soma, sub
 import pytest
 
 
@@ -10,7 +10,8 @@ def test_soma():
 
 def test_sub():
     """Testing sub."""
-    pytest.skip("ToDo")
+    result = sub(5, 2)
+    assert result == 3
 
 
 def test_div():
