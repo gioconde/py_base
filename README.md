@@ -19,5 +19,5 @@ pip install -r requirements.txt
 
 - criar os hooks do *pre-commit*:
 ```
-pre-commit intall
+pre-commit install
 ```
