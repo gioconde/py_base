@@ -24,5 +24,5 @@ def sub(a, b):
     return a - b
 
 
-CONSTANTE = soma(2, 4)
+CONSTANTE = sub(soma(2, 4), 1)
 print(CONSTANTE)
